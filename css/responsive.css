@@ -81,7 +81,7 @@
     }
     
     .section-5 .form{
-        width: 80%;
+        width: calc(80% - 20px);
     }
 }
 
