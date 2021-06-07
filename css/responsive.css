@@ -1,0 +1,104 @@
+@media (max-width:1170px) {
+    .main{
+        width: 900px;
+    }
+
+    .section-1 .header h1{
+        font-size: 18px;
+    }
+
+    .section-2 .info h4{
+        font-size: 16px;
+    } 
+
+    .section-2 .info h1{
+        font-size: 50px;
+    }
+
+    .section-2 .info p{
+        font-size: 16px;
+    }
+
+    .section-2 .info a{
+        padding: 15px 20px;
+        font-size: 14px;
+        margin: 10px 0;
+    }
+
+    .section-5 .form .form-group input, .section-5 .form .form-group textarea{
+        padding: 2px;
+    }
+
+    .section-3 .card-group .card-body{
+        margin: 20px;
+    }
+
+}
+
+@media (max-width: 900px) {
+    .main{
+        width: 768px;
+    }
+
+    .section-2 .image{
+        display: none;
+    }
+
+    .section-2 .info{
+        width: 600px;
+        margin: auto;
+    }
+
+    .section-3 .card-group {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px){
+    
+    .container{
+        height: 100vh;
+        background-size: cover;
+        background-size: 200%;
+    }
+    
+    .main{
+        width: 425px;
+    }
+
+    .section-2 .info{
+        padding: 20px;
+    }
+
+    .section-4 .group{
+        flex-direction: column;
+    }
+
+    .section-4 .group:nth-child(2){
+        margin-top: 50px;
+        flex-direction: column;
+    }
+    
+    .section-5 .form{
+        width: 300px;
+    }
+}
+
+@media (max-width: 425px) {
+    .main{
+        width: 375px;
+    }
+}
+
+@media (max-width: 320px){
+    .main{
+        width: 100%;
+        padding: 5px;
+    }
+
+    .section-5 .form{
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+}

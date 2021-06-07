@@ -1,0 +1,239 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+li{
+    list-style: none;
+}
+
+body{
+    background-color: aliceblue;
+}
+
+.main{
+    width: 1170px;
+    margin: auto;
+}
+
+.container{
+    height: 100vh;
+    background-color: rgb(127, 127, 211);
+    background-image: url(/img/topbg.svg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: calc(100% + 5px);
+}
+
+.section-1 .header h1{
+    font-size: 25px;
+    font-weight: normal;
+    padding: 10px;
+    text-align: center;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section-2{
+    margin: auto;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-2 .info h4, .section-2 .info h1, .section-2 .info p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    margin: 20px 0;
+}
+
+.section-2 .info h4{
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgb(201, 201, 201);
+}
+
+.section-2 .info h1{
+    font-size: 65px;
+    color: white;
+}
+
+.section-2 .info p{
+    font-size: 25px;
+    color: white;
+}
+
+.section-2 .info a{
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    background: linear-gradient(to right, rgb(79, 61, 184), rgb(126, 37, 66),rgb(73, 61, 138));
+    border-radius: 5px;
+    transition: 0.5s;
+    background-size: 200%;
+    margin: 50px 0;
+}
+
+.section-2 .info a:hover{
+    background-position: right;
+}
+
+.section-2 .image{
+    width: 40%;
+}
+
+.section-2 .image img{
+    width: 100%;
+}
+
+.section-3 .title h1{
+    text-align: center;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(203, 231, 255);
+    color: rgb(127, 127, 211);
+}
+
+.section-4{
+    padding-top: 100px;
+}
+
+.section-4 .group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section-4 .image{
+    width: 200px;
+    padding: 20px;
+}
+
+.section-4 .image img{
+    width: 100%;
+}
+
+.section-4 .image h2{
+    text-align: center;
+    color: rgb(127, 127, 211);
+}
+
+.section-4 .content{
+    width: 60%;
+    margin: 0 10%;
+    font-size: 18px;
+    color: gray;
+    line-height: 35px;
+    text-align: justify;
+}
+
+.section-4 .group:nth-child(2){
+    flex-direction: row-reverse;
+}
+
+.section-5{
+    margin-top: 100px;
+}
+
+.section-5 .form{
+    text-align: center;
+    width: 600px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: -5px 5px 10px 0 rgba(196, 196, 196, 0.3);
+    border-top: 5px solid rgb(127, 127, 211);
+}
+
+.section-5 .form .title h2{
+    color: rgb(127, 127, 211);
+}
+
+.section-5 .form .form-group{
+    position: relative;
+    margin: 35px 0;
+}
+
+.section-5 .form .form-group input, .section-5 .form .form-group textarea{
+    padding: 5px;
+    font-size: 20px;
+    background-color: aliceblue;
+    border: none;
+    border-bottom: 1px solid rgb(127, 127, 211);
+    width: 100%;
+    resize: none;
+    box-sizing: border-box;
+    z-index: 3;
+    color: rgb(127, 127, 211);
+}
+
+.section-5 .form .form-group label{
+    padding: 5px;
+    position: absolute;
+    color: rgb(127, 127, 211);
+    transition: 0.2s !important;
+}
+
+
+.section-5 .form .form-group button{
+    font-size: 16px;
+    border: none;
+    display: inline-block;
+    color: white;
+    padding: 15px 35px;
+    background: linear-gradient(to right, rgb(79, 61, 184), rgb(126, 37, 66),rgb(73, 61, 138));
+    border-radius: 5px;
+    transition: 0.5s;
+    background-size: 200%;
+}
+
+.section-5 .form .form-group button:hover{
+    background-position: right;
+}
+
+.footer{
+    margin-top: 50px;
+    background-color: rgb(39, 39, 54);
+}
+
+.footer .section-6 h3{
+    color: aliceblue;
+    padding: 3px 10px;
+    text-align: center;
+}
+
+.footer .section-6{
+    padding: 40px 0 0 0;
+}
+
+.footer .section-6 .social{
+    text-align: center;
+}
+
+.footer .section-6 .social a{
+    color: aliceblue;
+    font-weight: normal;
+    padding: 10px;
+    display: inline-block;
+    font-size: 25px;
+    transition: 0.2s;
+}
+
+.footer .section-6 .social a:hover{
+    color: rgb(127, 127, 211);
+}
+
+.footer p{
+    border-top: 1px solid rgb(59, 59, 74);
+    padding: 20px 0;
+    color: rgb(130, 130, 141);
+    text-align: center;
+}
+
