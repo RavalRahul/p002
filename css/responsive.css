@@ -68,6 +68,7 @@
 
     .section-2 .info{
         padding-left: 20px;
+        box-sizing: border-box;
     }
 
     
